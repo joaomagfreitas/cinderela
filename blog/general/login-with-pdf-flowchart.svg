@@ -1,0 +1,85 @@
+<svg width="432pt" height="116pt" viewBox="0.00 0.00 432.00 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(0.488386 0.488386) rotate(0) translate(4 234.4)">
+<title>OAuth_Login_with_PDF</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-234.4 880.55,-234.4 880.55,4 -4,4"/>
+<!-- U -->
+<g id="node1" class="node">
+<title>U</title>
+<ellipse fill="none" stroke="black" cx="533.89" cy="-212.4" rx="29.27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="533.89" y="-208.2" font-family="Times,serif" font-size="14.00">User</text>
+</g>
+<!-- A -->
+<g id="node2" class="node">
+<title>A</title>
+<ellipse fill="none" stroke="black" cx="366.89" cy="-123.6" rx="60.12" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="366.89" y="-119.4" font-family="Times,serif" font-size="14.00">App (Client)</text>
+</g>
+<!-- U&#45;&gt;A -->
+<g id="edge1" class="edge">
+<title>U-&gt;A</title>
+<path fill="none" stroke="black" d="M504.6,-209.49C461.73,-206.01 385.09,-197.02 368,-176.4 362.69,-170 361.07,-161.47 361.17,-153.18"/>
+<polygon fill="black" stroke="black" points="364.64,-153.66 362.1,-143.37 357.67,-153 364.64,-153.66"/>
+<text xml:space="preserve" text-anchor="middle" x="439.94" y="-163.8" font-family="Times,serif" font-size="14.00">1. Click 'Login with PDF'</text>
+</g>
+<!-- P -->
+<g id="node3" class="node">
+<title>P</title>
+<ellipse fill="none" stroke="black" cx="366.89" cy="-18" rx="186.97" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="366.89" y="-13.8" font-family="Times,serif" font-size="14.00">PDF Identity Provider (Authorization Server)</text>
+</g>
+<!-- U&#45;&gt;P -->
+<g id="edge3" class="edge">
+<title>U-&gt;P</title>
+<path fill="none" stroke="black" d="M562.55,-207.71C597.11,-202.61 652.16,-192.22 664.89,-176.4 699,-133.99 705.09,-94.64 668.89,-54 658.95,-42.85 598.75,-34.71 534.68,-29.11"/>
+<polygon fill="black" stroke="black" points="535.3,-25.65 525.04,-28.29 534.71,-32.62 535.3,-25.65"/>
+<text xml:space="preserve" text-anchor="middle" x="784.97" y="-119.4" font-family="Times,serif" font-size="14.00">3. Upload signed PDF document</text>
+</g>
+<!-- A&#45;&gt;U -->
+<g id="edge8" class="edge">
+<title>A-&gt;U</title>
+<path fill="none" stroke="black" d="M426.46,-126.78C455.12,-130.64 488.28,-139.59 511.89,-159.6 519.12,-165.73 524.03,-174.65 527.34,-183.37"/>
+<polygon fill="black" stroke="black" points="523.92,-184.16 530.27,-192.64 530.59,-182.05 523.92,-184.16"/>
+<text xml:space="preserve" text-anchor="middle" x="592.34" y="-163.8" font-family="Times,serif" font-size="14.00">8. Access granted to app</text>
+</g>
+<!-- A&#45;&gt;P -->
+<g id="edge2" class="edge">
+<title>A-&gt;P</title>
+<path fill="none" stroke="black" d="M306.93,-121.07C209.89,-117.97 27.22,-109.3 7.53,-87.6 -2.51,-76.54 -2.51,-65.06 7.53,-54 20.32,-39.89 101.97,-31.29 184.21,-26.15"/>
+<polygon fill="black" stroke="black" points="184.26,-29.65 194.03,-25.55 183.84,-22.67 184.26,-29.65"/>
+<text xml:space="preserve" text-anchor="middle" x="77.71" y="-75" font-family="Times,serif" font-size="14.00">2. Authorization Request</text>
+<text xml:space="preserve" text-anchor="middle" x="77.71" y="-58.2" font-family="Times,serif" font-size="14.00">(Redirect to PDF IDP)</text>
+</g>
+<!-- A&#45;&gt;P -->
+<g id="edge6" class="edge">
+<title>A-&gt;P</title>
+<path fill="none" stroke="black" d="M308.39,-118.94C262.54,-114.71 204.08,-105.82 189.09,-87.6 167,-60.74 193.03,-44.37 231.38,-34.41"/>
+<polygon fill="black" stroke="black" points="232.11,-37.83 241.03,-32.11 230.49,-31.02 232.11,-37.83"/>
+<text xml:space="preserve" text-anchor="middle" x="275.99" y="-75" font-family="Times,serif" font-size="14.00">6. (Optional) Request user info</text>
+<text xml:space="preserve" text-anchor="middle" x="275.99" y="-58.2" font-family="Times,serif" font-size="14.00">using access token</text>
+</g>
+<!-- P&#45;&gt;A -->
+<g id="edge5" class="edge">
+<title>P-&gt;A</title>
+<path fill="none" stroke="black" d="M366.89,-36.48C366.89,-52.25 366.89,-75.75 366.89,-94.22"/>
+<polygon fill="black" stroke="black" points="363.39,-93.98 366.89,-103.98 370.39,-93.98 363.39,-93.98"/>
+<text xml:space="preserve" text-anchor="middle" x="452.04" y="-75" font-family="Times,serif" font-size="14.00">5. Authorization Code →</text>
+<text xml:space="preserve" text-anchor="middle" x="452.04" y="-58.2" font-family="Times,serif" font-size="14.00">Access Token (based on PDF)</text>
+</g>
+<!-- P&#45;&gt;A -->
+<g id="edge7" class="edge">
+<title>P-&gt;A</title>
+<path fill="none" stroke="black" d="M485.43,-32.32C528.44,-42.07 561.35,-58.85 537.89,-87.6 524.9,-103.51 477.71,-112.39 436.19,-117.22"/>
+<polygon fill="black" stroke="black" points="436.01,-113.72 426.45,-118.28 436.77,-120.67 436.01,-113.72"/>
+<text xml:space="preserve" text-anchor="middle" x="605.17" y="-75" font-family="Times,serif" font-size="14.00">7. Return user claims</text>
+<text xml:space="preserve" text-anchor="middle" x="605.17" y="-58.2" font-family="Times,serif" font-size="14.00">(name, email, etc.)</text>
+</g>
+<!-- P&#45;&gt;P -->
+<g id="edge4" class="edge">
+<title>P-&gt;P</title>
+<path fill="none" stroke="black" d="M530.51,-27C555.16,-25.62 571.86,-22.61 571.86,-18 571.86,-14.14 560.19,-11.41 541.96,-9.81"/>
+<polygon fill="black" stroke="black" points="542.25,-6.32 532.02,-9.1 541.75,-13.3 542.25,-6.32"/>
+<text xml:space="preserve" text-anchor="middle" x="644.57" y="-22.2" font-family="Times,serif" font-size="14.00">4. Validate PDF signature</text>
+<text xml:space="preserve" text-anchor="middle" x="644.57" y="-5.4" font-family="Times,serif" font-size="14.00">Extract identity claims</text>
+</g>
+</g>
+</svg>
